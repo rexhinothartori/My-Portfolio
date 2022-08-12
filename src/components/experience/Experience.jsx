@@ -5,21 +5,14 @@ import {FiCheckCircle} from 'react-icons/fi'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5 className='experience__titles-center'>My Skills</h5>
-      <h2 className='experience__titles-center'>My Experience</h2>
+      <h5 className='experience__titles-center smallTitle'>My Skills</h5>
+      <h2 className='experience__titles-center bigTitle'>My Experience</h2>
 
       <div className="container experience__container">
           {/*Start of front end  */}
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
-            <article className="experience__details">
-            <FiCheckCircle className='experience__details-icon'/>
-            <div>
-            <h4>HTML</h4>
-            <small className='text-light'>Experienced</small>
-            </div>
-            </article>
             <article className="experience__details">
             <FiCheckCircle className='experience__details-icon'/>
             <div>
@@ -44,7 +37,14 @@ const Experience = () => {
             <article className="experience__details">
             <FiCheckCircle className='experience__details-icon'/>
             <div>
-            <h4>React</h4>
+            <h4>Jquery</h4>
+            <small className='text-light'>Experienced</small>
+            </div>
+            </article>
+            <article className="experience__details">
+            <FiCheckCircle className='experience__details-icon'/>
+            <div>
+            <h4>React Js</h4>
             <small className='text-light'>Experienced</small>
             </div>
             </article>
@@ -61,40 +61,47 @@ const Experience = () => {
         
         {/*Start of back end  */}
         <div className="experience__backend">
-          <h3>Frontend Development</h3>
+          <h3>UI/UX Design</h3>
           <div className="experience__content">
             <article className="experience__details">
             <FiCheckCircle />
             <div>
-            <h4>Node Js</h4>
-            <small className='text-light'>Intermediate</small>
-            </div>
-            </article>
-            <article className="experience__details">
-            <FiCheckCircle />
-            <div>
-            <h4>PHP</h4>
+            <h4>Wordpress</h4>
             <small className='text-light'>Experienced</small>
             </div>
             </article>
             <article className="experience__details">
             <FiCheckCircle />
             <div>
-            <h4>Laravel</h4>
-            <small className='text-light'>Intermediate</small>
-            </div>
-            </article>
-            <article className="experience__details">
-            <FiCheckCircle />
-            <div>
-            <h4>Redux</h4>
+            <h4>CS Cart</h4>
             <small className='text-light'>Experienced</small>
             </div>
             </article>
             <article className="experience__details">
             <FiCheckCircle />
             <div>
-            <h4>MySql</h4>
+            <h4>Prestashop</h4>
+            <small className='text-light'>Intermediate</small>
+            </div>
+            </article>
+            <article className="experience__details">
+            <FiCheckCircle />
+            <div>
+            <h4>Adobe Photoshop</h4>
+            <small className='text-light'>Intermediate</small>
+            </div>
+            </article>
+            <article className="experience__details">
+            <FiCheckCircle />
+            <div>
+            <h4>Adobe Illustrator</h4>
+            <small className='text-light'>Experienced</small>
+            </div>
+            </article>
+            <article className="experience__details">
+            <FiCheckCircle />
+            <div>
+            <h4>Adobe XD</h4>
             <small className='text-light'>Intermediate</small>
             </div>
             </article>

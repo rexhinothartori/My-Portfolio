@@ -12,43 +12,43 @@ const data = [
   {
     id:1,
     image:IMG1,
-    title:'Crypto Currency Dashboard&Financial Visualization',
-    github:'https://github.com',
+    title:'Presentative Survey',
+    // github:'https://github.com',
     demo:'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization',
 },
 {
     id:2,
     image:IMG2,
-    title:'Charts templates&infographics in Figma',
-    github:'https://github.com',
+    title:'Digital Marketing Agency',
+    // github:'https://github.com',
     demo:'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma',
   },
   {
 id:3,
 image:IMG3,
-title:'Figma dashboard UI kit for data design web apps',
+title:'Affiliate Marketing',
 github:'https://github.com',
 demo:'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
 },
 {
 id:4,
 image:IMG4,
-title:'Maintaining tasks and tracking progress',
-github:"https://github.com",
+title:'Pricing Website',
+// github:"https://github.com",
 demo:'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
 },
 {
 id:5,
 image:IMG5,
-title:'Charts templates&infographics in Figma',
-github:'https://github.com',
+title:'Lead Generation',
+// github:'https://github.com',
 demo:'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
 },
 {
 id:6,
 image:IMG6,
-title:"Charts templates&infographics in Figma",
-github:'https://github.com',
+title:"E-Commerce",
+// github:'https://github.com',
 demo:'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
 }
   ]
@@ -56,42 +56,21 @@ demo:'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infograp
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5 className='smallTitle experience__titles-center'>My Recent Work</h5>
+      <h2 className='bigTitle experience__titles-center'>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {/* <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src="{IMG1}" alt="" />
-          </div>
-          <div className="portfolio__item-cta">
-            <h3>This is  a portfolio item title</h3>
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
-            </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src="{IMG1}" alt="" />
-          </div>
-          <div className="portfolio__item-cta">
-            <h3>This is  a portfolio item title</h3>
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
-            </div>
-        </article> */}
         {
-          data.map(({id, title, github, demo}) => {
+          data.map(({id, image, title, demo}) => {
             return (
               <article key={id} className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src="{image}" alt={title} />
+            <img src={image} alt={title} />
           </div>
-          <div className="portfolio__item-cta">
             <h3>{title}</h3>
-            <a href={github} className='btn' target='_blank'>Github</a>
-            <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+            <div className="portfolio__item-cta">
+            {/* <a href={github} className='btn' target='_blank'>Github</a> */}
+            <a href={demo} className='btn btn-primary' target='_blank'>Visit Website</a>
             </div>
         </article>
             )

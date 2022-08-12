@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/images/me-about.jpg';
+import ME from '../../assets/images/me.png';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -9,13 +9,13 @@ import {VscFolderLibrary} from 'react-icons/vsc';
 const About = () => {
   return (
     <section id='about'>
-      <h5>Who am I?</h5>
-      <h2>My Story</h2>
+      <h5 className='smallTitle experience__titles-center'>Who am I?</h5>
+      <h2 className='bigTitle experience__titles-center'>My Story</h2>
 
       <div className="container about__container">
         <div className="about__me">
 <div className="about__me-image">
-<img src={ME} alt="About Image" />
+<img src={ME} alt="About Image" width="100%"/>
 </div>
         </div>
 

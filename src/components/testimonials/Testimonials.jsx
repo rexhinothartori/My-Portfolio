@@ -17,24 +17,24 @@ import 'swiper/css/pagination';
 const data=[
   {
   avatar:AVTR1,
-  name:'Tina Snow',
+  name:'Olgert Brati',
   review:'Modi alias animi dolorem aliquam ea eum beatae maiores,consectetur praesentium quibusdam,commodi velit porro blanditiis consequatur qui molestiae.Dolorem,perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
 },
 {
   avatar:AVTR2,
-  name:'Shatta Wale',
+  name:'Renis Gjonaj',
   review:'Modi alias animi dolorem aliquam ea eum beatae maiores,consectetur praesentium quibusdam,commodi velit porro blanditiis consequatur qui molestiae.Dolorem,perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
 },
 {
   avatar:AVTR3,
-  name:'Kwame Despite',
-  review:'Modi alias animi dolorem aliquam ea eum beatae maiores,consectetur praesentium quibusdam,commodi velit porro blanditiis consequatur qui molestiae.Dolorem,perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
-},
-{
-  avatar:AVTR4,
-  name:'Nana Ama McBrown',
+  name:'Erion Hajdini',
   review:'Modi alias animi dolorem aliquam ea eum beatae maiores,consectetur praesentium quibusdam,commodi velit porro blanditiis consequatur qui molestiae.Dolorem,perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
 }
+// {
+//   avatar:AVTR4,
+//   name:'Erion Hajdini',
+//   review:'Modi alias animi dolorem aliquam ea eum beatae maiores,consectetur praesentium quibusdam,commodi velit porro blanditiis consequatur qui molestiae.Dolorem,perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+// }
 ]
   
 
@@ -42,8 +42,8 @@ const data=[
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5 className='smallTitle experience__titles-center'>Review from clients</h5>
+      <h2 className='bigTitle experience__titles-center'>Testimonials</h2>
 
       <Swiper className='container testimonials__container'
 //install swiper modules

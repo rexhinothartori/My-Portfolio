@@ -1,5 +1,5 @@
 nav {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -14,6 +14,21 @@ nav {
     backdrop-filter: blur(15px);
 }
 
+/* nav {
+    background: #1f423f4f;
+    width: max-content;
+    padding: 2rem 1rem;
+    z-index: 2;
+    top: 35%;
+    position: fixed;
+    right: 0;
+    transform: translateX(-50%);
+    gap: 0.8rem;
+    border-radius: 3rem;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+} */
+
 nav a {
     background: transparent;
     padding: 0.9rem;
@@ -21,6 +36,7 @@ nav a {
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
+    color: var(--color-dark);
 }
 
 nav a:hover {
@@ -28,6 +44,8 @@ nav a:hover {
 }
 
 nav a.active {
-    background: var(--color-bg);
+    background: var(--color-bg-variant);
     color: var(--color-white);
 }
+
+
