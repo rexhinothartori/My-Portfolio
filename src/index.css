@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+:root {
+    /* --color-bg: radial-gradient( circle farthest-corner at 10% 20%, #a8c0ff, #3f2b96  ); */
+    --color-bg: linear-gradient(to bottom, #B7F8DB, #50A7C2, #fff);
+    --color-bg-variant: radial-gradient( circle farthest-corner at 10% 20%,rgba(15,156,168,1) 0%,rgba(0,95,104,1) 90% );
+    --color-primary:#005F68;
+    --color-primary-variant: #274F50;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+    --color-gray: rgb(231, 231, 231);
+    --color-dark: rgb(18, 31, 32);
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scroller {
+    display: none;
+}
+
+body {
+    color: var(--color-white); 
+    line-height: 1.7;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*=========== General Styles ===========*/
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-weight: 500;
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-color: transparent;
+    transition: 0.5s;
+}
+
+.btn-primary{
+    background: var(--color-bg-variant);
+    color: var(--color-bg);
+}
+
+.bigTitle {
+    color: var(--color-primary);
+    margin-bottom: 30px;
+
+}
+
+.experience__titles-center{
+    text-align: center;
+ }
+
+
+ @media screen and (max-width: 600px) {
+
+    section {
+        margin-top: 4rem;
+        /* height: 100vh; */
+    }
+
+    .container {
+        width: var(--container-width-sm);
+        margin: 0 auto;
+    }
+}
