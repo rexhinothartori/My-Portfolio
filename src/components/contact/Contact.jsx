@@ -20,6 +20,10 @@ const Contact = () => {
 
   return (
     <section id='contact'>
+<<<<<<< HEAD
+=======
+           <h5 className='smallTitle experience__titles-center'>Get In Touch</h5>
+>>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
       <h2 className='bigTitle experience__titles-center'>Contact Me </h2>
       <div className="container contact__container">
         <div className="contact__options">

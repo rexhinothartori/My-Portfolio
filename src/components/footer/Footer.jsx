@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import React from 'react';
+>>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
 import './footer.css';
 import {FaFacebookF} from 'react-icons/fa';
 import {BsInstagram} from 'react-icons/bs';
@@ -29,8 +33,14 @@ const Footer = () => {
       <div className='contact__footer'>
       <ul>
       <h2>Contact Details</h2>
+<<<<<<< HEAD
         <li> <MdOutlineEmail/> <a href="mailto:rexhino.thartori@gmail.com">rexhino.thartori@gmail.com</a></li>
         <li> <BsWhatsapp/><a href="https://wa.link/eg1l7c"> 0692868633</a> </li>
+=======
+        <li> <MdOutlineEmail/> rexhino.thartori@gmail.com</li>
+        <li> <RiMessengerLine/> rexhino thartori</li>
+        <li> <BsWhatsapp/> 0692868633</li>
+>>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
       </ul>
       </div>
 
