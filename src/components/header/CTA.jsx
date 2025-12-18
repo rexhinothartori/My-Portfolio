@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 import CV from '../../assets/Rexhino_Thartori_Front_End_Developer_CV.pdf'
-=======
-import React from 'react'
-import CV from '../../assets/Rexhino Thartori.pdf'
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
 
 const CTA = () => {
   return (

@@ -7,11 +7,7 @@
 .about__me {
     background: #0F9AA6;
     padding: 1rem 0.3rem 0.3rem 1rem;
-<<<<<<< HEAD
     border-radius: 20px;
-=======
-    border-radius: 50%;
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
     width: 35rem;
     aspect-ratio: 1/1;
     /* border-radius: 2rem; */
@@ -27,11 +23,7 @@
 
 
 .about__me-image {
-<<<<<<< HEAD
     border-radius: 20px;
-=======
-    border-radius: 50%;
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
     overflow: hidden;
     /* transform: rotate(10deg);
     transition: var(--transition); */
@@ -52,10 +44,6 @@
     text-align: center;
     transition: var(--transition);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
 /* 
 .about__card:hover {
     background: transparent;
@@ -63,15 +51,9 @@
     cursor: default;
 } */
 
-<<<<<<< HEAD
 .about_icon {
     color: var(--color-white);
     font-size: 3rem;
-=======
-.about__icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
     margin-bottom: 1rem;
 }
 
@@ -80,17 +62,12 @@
 }
 
 .about__card small {
-<<<<<<< HEAD
     font-size: 1rem;
-=======
-    font-size: 0.7rem;
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
     color: var(--color-light);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-<<<<<<< HEAD
     font-weight: 400;
     color: var(--color-dark);
 }
@@ -103,12 +80,6 @@
 .about_text {
     font-size: 16px;
 }
-=======
-    /* color: var(--color-light); */
-    color: var(--color-dark);
-}
-
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
 
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) ===========*/
 @media screen and (max-width: 1024px) {

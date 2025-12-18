@@ -1,4 +1,3 @@
-import React from 'react';
 import './nav.css';
 import {AiOutlineHome, AiOutlineUserSwitch, AiOutlineCheckCircle, AiOutlineCodeSandbox, AiOutlinePhone} from 'react-icons/ai';
 import { useState } from 'react';

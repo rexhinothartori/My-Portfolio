@@ -4,12 +4,7 @@ import {FiCheckCircle} from 'react-icons/fi'
 
 const Experience = () => {
   return (
-<<<<<<< HEAD
-    <section id='experience' className='container'>
-=======
-    <section id='experience'>
-      <h5 className='experience__titles-center smallTitle'>My Skills</h5>
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
+    <section id='experience' className='container mt-5'>
       <h2 className='experience__titles-center bigTitle'>My Experience</h2>
 
       <div className="container experience__container">
@@ -20,22 +15,14 @@ const Experience = () => {
             <article className="experience__details">
             <FiCheckCircle className='experience__details-icon'/>
             <div>
-<<<<<<< HEAD
             <h4>HTML</h4>
-=======
-            <h4>CSS</h4>
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
             <small className='text-light'>Experienced</small>
             </div>
             </article>
             <article className="experience__details">
             <FiCheckCircle className='experience__details-icon'/>
             <div>
-<<<<<<< HEAD
             <h4>CSS</h4>
-=======
-            <h4>Bootstrap</h4>
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
             <small className='text-light'>Experienced</small>
             </div>
             </article>
@@ -73,11 +60,7 @@ const Experience = () => {
         
         {/*Start of back end  */}
         <div className="experience__backend">
-<<<<<<< HEAD
           <h3>Web Design & UI/UX</h3>
-=======
-          <h3>UI/UX Design</h3>
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
           <div className="experience__content">
             <article className="experience__details">
             <FiCheckCircle />
@@ -89,45 +72,28 @@ const Experience = () => {
             <article className="experience__details">
             <FiCheckCircle />
             <div>
-<<<<<<< HEAD
             <h4>Shopify</h4>
-=======
-            <h4>CS Cart</h4>
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
             <small className='text-light'>Experienced</small>
             </div>
             </article>
             <article className="experience__details">
             <FiCheckCircle />
             <div>
-<<<<<<< HEAD
             <h4>Adobe Illustrator</h4>
             <small className='text-light'>Experienced</small>
-=======
-            <h4>Prestashop</h4>
-            <small className='text-light'>Intermediate</small>
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
             </div>
             </article>
             <article className="experience__details">
             <FiCheckCircle />
             <div>
             <h4>Adobe Photoshop</h4>
-<<<<<<< HEAD
             <small className='text-light'>Experienced</small>
-=======
-            <small className='text-light'>Intermediate</small>
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
             </div>
             </article>
             <article className="experience__details">
             <FiCheckCircle />
             <div>
-<<<<<<< HEAD
             <h4>Figma</h4>
-=======
-            <h4>Adobe Illustrator</h4>
->>>>>>> fb6fb92f23cada87d08180ef1c5e7babdf7b01e7
             <small className='text-light'>Experienced</small>
             </div>
             </article>
