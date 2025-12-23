@@ -17,13 +17,13 @@
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-white);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
 .experience__container > div h4 {
     color: var(--color-white);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .experience__content {

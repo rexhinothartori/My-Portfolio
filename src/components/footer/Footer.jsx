@@ -2,9 +2,9 @@ import './footer.css';
 import {FaFacebookF} from 'react-icons/fa';
 import {BsInstagram} from 'react-icons/bs';
 import {FaLinkedinIn} from 'react-icons/fa';
-import {MdOutlineEmail} from 'react-icons/md';
-import {RiMessengerLine} from 'react-icons/ri';
-import {BsWhatsapp} from 'react-icons/bs';
+import {MdEmail  } from 'react-icons/md';
+import { IoLogoWhatsapp } from 'react-icons/io';
+import ScrollLink from '../ScrollLink';
 
 const Footer = () => {
   return (
@@ -17,20 +17,20 @@ const Footer = () => {
       <div>
       <ul className='permalinks'>
       <h2>Quick Links</h2>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><ScrollLink to="#" as="button">Home</ScrollLink></li>
+        <li><ScrollLink to="about" as="button">About</ScrollLink></li>
+        <li><ScrollLink to="experience" as="button">Experience</ScrollLink></li>
+        <li><ScrollLink to="portfolio" as="button">Portfolio</ScrollLink></li>
+        <li><ScrollLink to="testimonials" as="button">Testimonials</ScrollLink></li>
+        <li><ScrollLink to="contact" as="button">Testimonials</ScrollLink></li>
       </ul>
       </div>
 
       <div className='contact__footer'>
       <ul>
       <h2>Contact Details</h2>
-        <li> <MdOutlineEmail/> <a href="mailto:rexhino.thartori@gmail.com">rexhino.thartori@gmail.com</a></li>
-        <li> <BsWhatsapp/><a href="https://wa.link/eg1l7c"> 0692868633</a> </li>
+        <li> <MdEmail /> <a href="mailto:rexhino.thartori@gmail.com">rexhino.thartori@gmail.com</a></li>
+        <li> <IoLogoWhatsapp /><a href="https://wa.link/eg1l7c"> 0692868633</a> </li>
       </ul>
       </div>
 
@@ -39,13 +39,13 @@ const Footer = () => {
       <h2>Social Links</h2>
         <ul className="footer__socials">
           <li>
-        <a href="https://facebook.com"><FaFacebookF/></a>
+        <a href="https://www.facebook.com/rexhino.thartori.1"><FaFacebookF/></a>
         </li>
         <li>
-        <a href="https://instagram.com"><BsInstagram/></a>
+        <a href="https://www.instagram.com/rexhinothartori/"><BsInstagram/></a>
         </li>
         <li>
-        <a href="https://twitter.com"><FaLinkedinIn/></a>
+        <a href="https://www.linkedin.com/in/rexhino-thartori-985939194/"><FaLinkedinIn/></a>
         </li>
         </ul>
       </div>

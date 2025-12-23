@@ -11,39 +11,39 @@ const data = [
   {
     id:1,
     image:IMG1,
-    title:'Presentative Survey',
-    demo:'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization',
+    title:'Silver & Gold',
+    demo:'https://silver-gold.it/',
   },
   {
       id:2,
       image:IMG2,
-      title:'Digital Marketing Agency',
-      demo:'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma',
+      title:'Salute On Top',
+      demo:'https://saluteontop.it/',
     },
     {
   id:3,
   image:IMG3,
-  title:'Affiliate Marketing',
+  title:'Tetrix ',
   github:'https://github.com',
-  demo:'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+  demo:'https://betetrix.com/'
   },
   {
   id:4,
   image:IMG4,
-  title:'Pricing Website',
-  demo:'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+  title:'2Visionaries',
+  demo:'https://twovisionaries.com/'
   },
   {
   id:5,
   image:IMG5,
-  title:'Lead Generation',
-  demo:'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  title:'Tirana Invest Kredit',
+  demo:'https://tiranainvestkredit2000.com/'
   },
   {
   id:6,
   image:IMG6,
-  title:"E-Commerce",
-  demo:'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  title:"AMG Montaggi",
+  demo:'https://amgmontaggi.com/'
   }
   ]
 

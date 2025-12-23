@@ -29,23 +29,34 @@ footer a {
     text-align: left;
     gap: 2rem;
     margin: 0 auto 3rem;
-    font-size: 1rem;
+    line-height: 2em;
 }
 
-.permalinks a{
+.permalinks button{
     color: var(--color-dark);
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+
 }
 
-.permalinks a:hover{
+.permalinks button:hover{
     color: var(--color-primary);
 }
 
 
 .contact__footer {
     text-align: left;
-    font-size: 1rem;
+    font-size: 16px;
+    line-height: 2em;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+}
+
+.contact__footer svg {
+    font-size: 17px;
+    position: relative;
+    top: 2px;
 }
 
 .contact__footer a:hover {

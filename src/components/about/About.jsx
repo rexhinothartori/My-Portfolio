@@ -4,6 +4,7 @@ import ME from '../../assets/images/me.JPG';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
+import ScrollLink from '../ScrollLink';
 
 
 const About = () => {
@@ -47,7 +48,7 @@ Throughout my career, I’ve contributed to projects at Tetrix, Inovatech, Webma
 Fluent in Albanian and English, with working knowledge of Spanish, German, and Italian, I enjoy collaborating with international teams and clients, bringing a versatile and solution-oriented approach to every project.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's talk</a>
+          <ScrollLink to="contact" as="button" className="btn btn-primary">Let's talk</ScrollLink>
         </div>
       </div>
     </section>
